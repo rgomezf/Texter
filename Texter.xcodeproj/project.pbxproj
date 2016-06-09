@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E49FD2E1D09C21A0053082C /* sendSMS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E49FD2D1D09C21A0053082C /* sendSMS.swift */; };
 		3E6DB2B31D088661002A777B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6DB2B21D088661002A777B /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3E49FD2D1D09C21A0053082C /* sendSMS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sendSMS.swift; sourceTree = "<group>"; };
 		3E6DB2AF1D088661002A777B /* Texter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Texter; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E6DB2B21D088661002A777B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				3E6DB2B21D088661002A777B /* main.swift */,
+				3E49FD2D1D09C21A0053082C /* sendSMS.swift */,
 			);
 			path = Texter;
 			sourceTree = "<group>";
@@ -120,6 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E6DB2B31D088661002A777B /* main.swift in Sources */,
+				3E49FD2E1D09C21A0053082C /* sendSMS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +245,7 @@
 				3E6DB2B81D088661002A777B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
