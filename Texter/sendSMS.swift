@@ -9,11 +9,10 @@
 import Foundation
 
 func sendSMS(phoneNumber: String, Message: String) {
-    // code goes here
-    // Clock Work SMS API Key: 5f8cf06e5652023cfa53e8f9c23a400b87d7a4ef
+    // Get registered at http://clockworksms.com and get an Api Key
     
     var clockworkSMSURLString = "https://api.clockworksms.com/http/send.aspx?"
-        + "key=5f8cf06e5652023cfa53e8f9c23a400b87d7a4ef"
+        + "key=YOUR_API_GOES_HERE"
         + "&to=" + phoneNumber
         + "&content=" + Message
     
