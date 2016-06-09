@@ -12,7 +12,7 @@ func sendSMS(phoneNumber: String, Message: String) {
     // Get registered at http://clockworksms.com and get an Api Key
     
     var clockworkSMSURLString = "https://api.clockworksms.com/http/send.aspx?"
-        + "key=YOUR_API_GOES_HERE"
+        + "key=YOUR_API_KEY_GOES_HERE"
         + "&to=" + phoneNumber
         + "&content=" + Message
     
